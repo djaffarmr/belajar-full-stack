@@ -5,23 +5,40 @@ body {
     margin: 0px;
 }
 
+.nav-wrapper {
+    /* display: flex;
+    flex-direction: column;
+    max-width: 160px; */
+}
+
+.card-profile {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dotted-blue {
+    border: 1px dotted blue;
+}
+
+.img-profile {
+    width: 128px;
+    margin-right: 16px;
+}
+
+.bio {
+    text-align: center;
+}
+
 ul {
     list-style-position: inside;
 }
 
 .div-google {
-    /* display: flex;
-    flex-direction: column;
-    height: fit-content;
-    justify-content: center;
-    align-items: center; */
     margin-top: 100px;
 }
-
-/* How to center an element with margin
-1. display: block
-2. the element must have width set
-3. margin right&left must be auto */
 
 .img-logo-google {
     display: block;
@@ -45,7 +62,6 @@ ul {
 }
 
 .card {
-    display: inline-block;
     width: 300px;
     background: #dfe1e5;
     border: 1px solid #cfd9de;
@@ -59,12 +75,10 @@ ul {
 }
 
 .card-btn {
-    /* color: #0f1419; */
     font-weight: bold;
     border: 1px solid #cfd9de;
     border-radius: 8px;
     background-color: white;
-    /* height: 24px; */
     padding: 8px 16px 8px 16px;
 }
 
